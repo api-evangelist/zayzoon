@@ -1,17 +1,37 @@
 aid: zayzoon
 name: ZayZoon
-description: 'ZayZoon is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'ZayZoon is an Earned Wage Access (EWA) and financial-wellness provider,
+  founded in 2014 with offices in Calgary, Alberta and Scottsdale, Arizona, that lets
+  employees of participating businesses draw a portion of already-earned wages before
+  payday. The product is distributed through payroll, PEO and HCM platforms — ZayZoon
+  advertises 300+ payroll and HCM integrations and is listed on the ADP Marketplace,
+  isolved Network, AllianceHCM, PrismHR, Paylocity and Execupay — and is free for employers,
+  with employees paying a flat per-transfer processing fee or choosing a fee-free option
+  (Boost gift cards, ZayZoon Visa prepaid card). ZayZoon operates a partner API used
+  by payroll providers to exchange employee, hours-worked and deduction data, but it
+  publishes no public developer portal, API reference or machine-readable specification;
+  access is arranged through the partner program. NMLS ID 2635812.'
+image: https://www.zayzoon.com/hubfs/Featured_ZayZoon.png
 url: https://raw.githubusercontent.com/api-evangelist/zayzoon/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+x-tier: profiled
+x-tier-reason: enrichment-pass
 specificationVersion: '0.20'
 created: '2026-09-05'
 modified: '2026-09-05'
 tags:
 - Company
+- Earned Wage Access
+- On-Demand Pay
+- Payroll
+- Human Resources
+- Employee Benefits
+- Financial Wellness
+- Fintech
+- Payments
+- Embedded Finance
+position: Producing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -20,4 +40,88 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://www.zayzoon.com/
+  name: ZayZoon
+- type: SignUp
+  url: https://app.zayzoon.com/customers/sign_up
+  name: Sign Up
+- type: Login
+  url: https://app.zayzoon.com/customers/sign_in
+  name: Log In
+- type: Support
+  url: https://www.zayzoon.com/employer/help-center
+  name: Employer Help Center
+- type: Blog
+  url: https://www.zayzoon.com/blog
+  name: ZayZoon Blog
+- type: BlogRSS
+  url: https://www.zayzoon.com/blog/rss.xml
+  name: ZayZoon Blog RSS
+- type: Newsroom
+  url: https://www.zayzoon.com/press
+  name: Newsroom
+- type: TermsOfService
+  url: https://www.zayzoon.com/usaterms
+  name: USA Terms of Service
+- type: PrivacyPolicy
+  url: https://www.zayzoon.com/usaprivacy
+  name: USA Privacy Policy
+- type: Security
+  url: https://www.zayzoon.com/security
+  name: ZayZoon Security Program
+- type: TrustCenter
+  url: security/zayzoon-trust-center.yml
+  name: ZayZoon Trust Center (Vanta)
+- type: Compliance
+  url: conformance/zayzoon-conformance.yml
+  name: Compliance and Standards Conformance
+- type: Conformance
+  url: conformance/zayzoon-conformance.yml
+  name: Conformance Assertions
+- type: VulnerabilityDisclosure
+  url: security/zayzoon-vulnerability-disclosure.yml
+  name: Vulnerability Disclosure
+- type: DomainSecurity
+  url: security/zayzoon-domain-security.yml
+  name: Domain Security Probe
+- type: Plans
+  url: plans/zayzoon-plans-pricing.yml
+  name: Fees and Pricing
+- type: RateLimits
+  url: rate-limits/zayzoon-rate-limits.yml
+  name: Rate Limits
+- type: Packages
+  url: packages/zayzoon-packages.yml
+  name: Client Packages and SDKs
+- type: LLMsTxt
+  url: llms/zayzoon-llms.txt
+  name: llms.txt
+x-enrichment:
+  date: '2026-09-05'
+  status: minimal
+  artifacts_added: 9
+  pass: local-v3
+x-coverage:
+  state: gated
+  reason: sales-gate
+  detail: >-
+    ZayZoon runs a real partner API — api.zayzoon.com resolves and its payroll/HCM
+    integrations are marketed on its own partner pages — but the only published route to
+    it is the "Partner with ZayZoon" inquiry form; there is no developer portal, no API
+    reference and no machine-readable contract on any ZayZoon host, and the API host
+    itself serves robots.txt "Disallow: /" and redirects anonymous requests to a customer
+    sign-in page.
+  evidence:
+  - url: https://api.zayzoon.com/
+    status: 404
+  - url: https://api.zayzoon.com/openapi.json
+    status: 404
+  - url: https://api.zayzoon.com/robots.txt
+    status: 200
+  - url: https://www.zayzoon.com/partners
+    status: 200
+  - url: https://info.zayzoon.com/partner-with-zayzoon
+    status: 200
+  - url: https://developers.zayzoon.com/
+    status: 0
+  checked: '2026-09-05'

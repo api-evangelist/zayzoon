@@ -1,0 +1,26 @@
+generated: '2026-09-05'
+method: searched
+source: https://www.zayzoon.com/partners
+limit_count: 0
+note: >-
+  ZayZoon publishes no API rate limits. There is no public developer portal, API
+  reference or machine-readable contract on any ZayZoon host, so no documented quota,
+  window, burst allowance, exhaustion status code or RateLimit response header could be
+  found. The partner API host (api.zayzoon.com) resolves but serves robots.txt
+  "Disallow: /" and redirects anonymous requests to a customer sign-in page, so no
+  runtime rate-limit header could be observed on an unauthenticated response either.
+  This is an honest zero, not an unchecked field.
+rate_limits: []
+response_headers: []
+exhaustion_status: null
+probed:
+- url: https://api.zayzoon.com/
+  status: 404
+  detail: redirects to https://api.zayzoon.com/customers/sign_in
+- url: https://api.zayzoon.com/robots.txt
+  status: 200
+  detail: 'User-agent: * / Disallow: /'
+- url: https://www.zayzoon.com/partners
+  status: 200
+  detail: partner program page; no technical limits published
+checked: '2026-09-05'

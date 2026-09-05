@@ -1,0 +1,69 @@
+generated: '2026-09-05'
+method: searched
+source: https://www.zayzoon.com/usaterms
+note: >-
+  ZayZoon publishes no API plans, developer tiers or metered API pricing — there is no
+  public developer program to price. What it does publish, in the USA Terms of Service,
+  is the consumer-facing fee schedule for the Earned Wage Access product plus the
+  employer-side commercial model. Those are recorded here because they are the only
+  published, machine-checkable price points for the service. API access itself is
+  arranged through the partner program with no published price.
+api_plans_published: false
+plan_count: 3
+currency: USD
+billing_model: per-transaction processing fee, no subscription
+employer_pricing:
+  price: 0
+  detail: >-
+    "No cost for employers" — stated in the site meta description and throughout the
+    employer pages; setup is described as free and under 30 minutes.
+  source: https://www.zayzoon.com/
+plans:
+- name: Near Instant Transfer
+  description: >-
+    Expedited payout of earned wages, including transfers via Venmo and Zelle. Usually
+    arrives in under five minutes.
+  price: null
+  price_max: 5.00
+  currency: USD
+  period: per transfer
+  quota: null
+  note: >-
+    "The Near Instant Transfer fee will not exceed $5 per transfer." The Processing Fee is
+    flat and does not vary with the amount requested, and the exact fee is displayed in the
+    ZayZoon app before the transaction is authorized.
+  source: https://www.zayzoon.com/usaterms
+- name: Boost
+  description: Earned wages taken as an Instant Gift Card, with a bonus of up to 25%.
+  price: 0.00
+  currency: USD
+  period: per transfer
+  note: Designated a "Fee-Free Transaction" in the USA Terms of Service.
+  source: https://www.zayzoon.com/usaterms
+- name: ZayZoon Visa Prepaid Card
+  description: Earned wages loaded onto the ZayZoon Visa prepaid card.
+  price: 0.00
+  currency: USD
+  period: per transfer
+  note: Listed at $0 in the Processing Fee range table in the USA Terms of Service.
+  source: https://www.zayzoon.com/usaterms
+regional_variations:
+- jurisdiction: Connecticut, USA
+  detail: >-
+    "Connecticut consumers will incur a fee of $4 for the expedited transfers, but may only
+    receive one such Payout each pay period."
+  price: 4.00
+  currency: USD
+  source: https://www.zayzoon.com/usaterms
+- jurisdiction: Canada
+  detail: >-
+    Canadian program terms are published separately at ca.zayzoon.com/ca-terms; the fee
+    table above is the USA schedule and should not be read as applying in Canada.
+  source: https://ca.zayzoon.com/ca-terms
+terms:
+- No cancellation fee.
+- No subscription fee.
+- '"There are no additional fees for using the ZayZoon Services."'
+- Fees may be waived for promotions, referrals, or where the employer elects to pay.
+- ZayZoon always offers at least one fee-free route to earned wages.
+checked: '2026-09-05'

@@ -1,0 +1,43 @@
+generated: '2026-09-05'
+method: searched
+source: >-
+  registry.npmjs.org, pypi.org, rubygems.org, crates.io, packagist.org,
+  azuresearch-usnc.nuget.org — all queried unauthenticated on 2026-09-05
+package_count: 0
+official_package_count: 0
+note: >-
+  ZayZoon publishes no client libraries. Every public package registry queried returned
+  zero results for "zayzoon", ZayZoon operates no GitHub organization (api.github.com/orgs/zayzoon
+  returns 404), and no SDK, CLI or SourceCode link exists anywhere in this record to derive
+  candidates from. Consistent with the absence of a public developer program: integration is
+  built by ZayZoon on the payroll platform's side, not by third-party developers against a
+  ZayZoon SDK.
+packages: []
+registries_checked:
+- registry: npm
+  query: https://registry.npmjs.org/-/v1/search?text=zayzoon
+  results: 0
+- registry: pypi
+  query: https://pypi.org/pypi/zayzoon/json
+  results: 0
+  status: 404
+- registry: rubygems
+  query: https://rubygems.org/api/v1/search.json?query=zayzoon
+  results: 0
+- registry: crates.io
+  query: https://crates.io/api/v1/crates?q=zayzoon
+  results: 0
+- registry: packagist
+  query: https://packagist.org/search.json?q=zayzoon
+  results: 0
+- registry: nuget
+  query: https://azuresearch-usnc.nuget.org/query?q=zayzoon
+  results: 0
+- registry: github
+  query: https://api.github.com/orgs/zayzoon
+  results: 0
+  status: 404
+  detail: >-
+    No ZayZoon GitHub organization. Repository search returns only third-party items
+    (an SRE take-home exercise, a hackathon project, a student case study) — none first-party.
+checked: '2026-09-05'

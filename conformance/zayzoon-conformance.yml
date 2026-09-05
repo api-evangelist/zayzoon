@@ -1,0 +1,68 @@
+generated: '2026-09-05'
+method: searched
+source: https://www.zayzoon.com/security
+note: >-
+  ZayZoon publishes no OpenAPI, AsyncAPI, GraphQL SDL or other machine-readable
+  contract on any host we could reach, so no conformance assertion here is derived
+  from a specification. Every entry below is read from a first-party, server-rendered
+  page. Entries with conforms:false are honest absences, not deficiencies inferred
+  from a missing document.
+conformance:
+- id: soc2-type-ii
+  name: AICPA SOC 2 Type II
+  conforms: true
+  evidence: https://www.zayzoon.com/security
+  detail: >-
+    ZayZoon states it holds a SOC 2 Type II report covering security, availability and
+    confidentiality, available on request through a ZayZoon representative.
+- id: tls12
+  name: TLS 1.2 or above in transit
+  conforms: true
+  evidence: https://www.zayzoon.com/security
+  detail: >-
+    "Sessions between you and our application are protected with in-transit encryption
+    using 2,048-bit or better keys and TLS 1.2 or above." Independently observed as
+    TLSv1.3 on www.zayzoon.com (security/zayzoon-domain-security.yml).
+- id: nmls-licensed
+  name: NMLS registration
+  conforms: true
+  evidence: https://www.zayzoon.com/security
+  detail: ZayZoon publishes NMLS ID 2635812 in its site footer.
+- id: rfc9116
+  name: RFC 9116 security.txt
+  conforms: false
+  evidence: https://www.zayzoon.com/.well-known/security.txt
+  detail: 404 on every ZayZoon host probed (www, apex, api, app, ca).
+- id: rfc8615-api-catalog
+  name: RFC 9727 /.well-known/api-catalog
+  conforms: false
+  evidence: https://www.zayzoon.com/.well-known/api-catalog
+  detail: 404 on every ZayZoon host probed.
+- id: oauth2
+  name: OAuth 2.0
+  conforms: unknown
+  evidence: https://api.zayzoon.com/.well-known/oauth-authorization-server
+  detail: >-
+    404. The partner API host exists but publishes no authorization-server metadata and
+    no public authentication documentation, so the auth model cannot be asserted either way.
+- id: oidc
+  name: OpenID Connect
+  conforms: unknown
+  evidence: https://api.zayzoon.com/.well-known/openid-configuration
+  detail: 404; no discovery document served.
+domain_standards:
+  note: >-
+    Earned Wage Access has no ratified interchange standard that ZayZoon's contract could
+    declare, and no contract is published to inspect. The distribution surface is instead
+    per-platform (ADP Marketplace connectors, isolved Network, PrismHR, AllianceHCM,
+    Paylocity, Execupay), each on the host platform's own integration model. REWARD-ONLY
+    dimension: no standard is asserted because none was found in a contract.
+  candidates_checked:
+  - id: iso-20022
+    found: false
+  - id: nacha-ach
+    found: false
+    note: >-
+      Repayment is described in the USA Terms as a bank debit, but no message-format
+      standard is declared in any published contract.
+checked: '2026-09-05'
