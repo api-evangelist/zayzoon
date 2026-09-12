@@ -1,0 +1,21 @@
+{
+  "repo": "zayzoon",
+  "feeds": [
+    {
+      "source": "https://www.zayzoon.com/blog",
+      "feed_url": "https://www.zayzoon.com/blog/rss.xml",
+      "title": "",
+      "saved": 1,
+      "method": "discovered"
+    },
+    {
+      "source": "https://www.zayzoon.com/employer/help-center",
+      "feed_url": "https://www.zayzoon.com/employer/help-center",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 1,
+  "fetched": "2026-09-06T19:17:18Z"
+}
