@@ -5,7 +5,7 @@
       "source": "https://www.zayzoon.com/blog",
       "feed_url": "https://www.zayzoon.com/blog/rss.xml",
       "title": "",
-      "saved": 1,
+      "saved": 0,
       "method": "discovered"
     },
     {
@@ -14,8 +14,15 @@
       "title": "",
       "saved": 0,
       "method": "none"
+    },
+    {
+      "source": "https://www.zayzoon.com/blog/rss.xml",
+      "feed_url": "https://www.zayzoon.com/blog/rss.xml",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
     }
   ],
-  "post_count": 1,
-  "fetched": "2026-09-06T19:17:18Z"
+  "post_count": 10,
+  "fetched": "2026-09-13T13:00:00Z"
 }
