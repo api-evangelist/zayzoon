@@ -39,6 +39,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Pricing
+  url: https://www.zayzoon.com/usaterms
 - type: Website
   url: https://www.zayzoon.com/
   name: ZayZoon
