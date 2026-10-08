@@ -67,3 +67,31 @@ terms:
 - Fees may be waived for promotions, referrals, or where the employer elects to pay.
 - ZayZoon always offers at least one fee-free route to earned wages.
 checked: '2026-09-05'
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - free
+  units: []
+  plans:
+  - name: Near Instant Transfer
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - other
+  - name: Boost
+    access: other
+    model: free
+    model_how: derived
+    units: []
+    periods:
+    - other
+  - name: ZayZoon Visa Prepaid Card
+    access: other
+    model: free
+    model_how: derived
+    units: []
+    periods:
+    - other
