@@ -64,5 +64,100 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-ZayZoon is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.nasdaqprivatemarket.com/
+ZayZoon is an Earned Wage Access (EWA) and financial-wellness provider, founded in 2014 with offices in Calgary, Alberta and Scottsdale, Arizona, that lets employees of participating businesses draw a portion of already-earned wages before payday. The product is distributed through payroll, PEO and HCM platforms — ZayZoon advertises 300+ payroll and HCM integrations and is listed on the ADP Marketplace, isolved Network, AllianceHCM, PrismHR, Paylocity and Execupay — and is free for employers, with employees paying a flat per-transfer processing fee or choosing a fee-free option (Boost gift cards, ZayZoon Visa prepaid card). ZayZoon operates a partner API used by payroll providers to exchange employee, hours-worked and deduction data, but it publishes no public developer portal, API reference or machine-readable specification; access is arranged through the partner program. NMLS ID 2635812.
+
+**Areas:** Company · Earned Wage Access · On-Demand Pay · Payroll · Human Resources · Employee Benefits · Financial Wellness · Fintech · Payments · Embedded Finance
+
+## ZayZoon on APIs.io
+
+Everything profiled for ZayZoon is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/zayzoon/](https://apis.io/providers/zayzoon/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Zayzoon Domain Security](https://apis.io/security/zayzoon/zayzoon-domain-security/)
+- [Zayzoon Trust Center](https://apis.io/security/zayzoon/zayzoon-trust-center/)
+- [Zayzoon Vulnerability Disclosure](https://apis.io/security/zayzoon/zayzoon-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Zayzoon Plans Pricing](https://apis.io/plans/zayzoon/zayzoon-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Zayzoon Rate Limits](https://apis.io/rate-limits/zayzoon/zayzoon-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.zayzoon.com/)
+- [Pricing](https://www.zayzoon.com/usaterms)
+- [Sign up](https://app.zayzoon.com/customers/sign_up)
+- [Support](https://www.zayzoon.com/employer/help-center)
+- [Blog](https://www.zayzoon.com/blog)
+- [Security](https://www.zayzoon.com/security)
+- [Terms of service](https://www.zayzoon.com/usaterms)
+- [Privacy policy](https://www.zayzoon.com/usaprivacy)
+
+## API Evangelist rating
+
+**Kin Score 30.1** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.3 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 92.1 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 26.8** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/zayzoon/](https://apis.io/providers/zayzoon/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for ZayZoon: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/zayzoon/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
